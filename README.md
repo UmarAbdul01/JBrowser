@@ -6,4 +6,3 @@ JBrowser is a simple headless browser library in Java using Jsoup for fetching a
 * $ cd JBrowser
 * $ ant build  # Compile.
 * $ ant deploy -Dclasspath=/your/class/path  # Install.
-* $ ./makedoc.sh doc/  # Create javadoc.
