@@ -24,9 +24,7 @@
       <fileset dir="${out.dir}"/>
     </copy>
   </target>
-  <!--
   <target name="makedoc" depends="init">
-    <javadoc classpathref="${lib.dir}" sourcepath="${src.dir}" destdir="${doc.dir}"/>
+    <javadoc sourcepath="${src.dir}" destdir="${doc.dir}" classpathref="lib.classpath" noqualifier="java.lang:java.io:java.util"/>
   </target>
-  -->
 </project>
